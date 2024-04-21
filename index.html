@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f3f3f3;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #4CAF50;
+      padding: 10px;
+      text-align: center;
+      color: white;
+    }
+    .container {
+      margin: 20px;
+    }
+    .recipe {
+      background-color: #fff;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+  <title>Recipe Sharing Platform</title>
+</head>
+<body>
+  <header>
+    <h1>Recipe Sharing Platform</h1>
+    <button>Home</button>
+  </header>
+  <div class="container">
+    <h2>Welcome to our Recipe Sharing Platform!</h2>
+    <p>Share your favorite recipes with the world and explore new cuisines!</p>
+    <div class="recipe">
+      <h3>Italian Cuisine</h3>
+      <img src="italian.jpg" alt="Italian Cuisine">
+      <p>Discover delicious pasta, pizza, and more!</p>
+    </div>
+    <div class="recipe">
+      <h3>Mexican Cuisine</h3>
+      <img src="mexican.jpg" alt="Mexican Cuisine">
+      <p>Explore the flavors of tacos, burritos, and more!</p>
+    </div>
+    <div class="recipe">
+      <h3>Indian Cuisine</h3>
+      <img src="indian.jpg" alt="Indian Cuisine">
+      <p>Experience aromatic curries, biryanis, and more!</p>
+    </div>
+    <form>
+      <h2>Share Your Recipe</h2>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name"><br><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email"><br><br>
+      <label for="recipe">Recipe:</label><br>
+      <textarea id="recipe" name="recipe" rows="4" cols="50"></textarea><br><br>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+  <footer>
+    <p>&copy; 2021 Recipe Sharing Platform</p>
+  </footer>
+</body>
+</html>
